@@ -23,3 +23,4 @@ Let's Do it!
 ## Contents📍
 
 ### Deepening of data types
+1. [String Handling](./md/01.String_Handling.md)
