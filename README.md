@@ -25,3 +25,4 @@ Let's Do it!
 ### Deepening of data types
 1. [String Handling](./md/01.String_Handling.md)
 2. [String Formatting](./md/02.String_Formatting.md)
+3. [List Handling](./md/03.List_Handling.md)
