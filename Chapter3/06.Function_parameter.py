@@ -1,4 +1,3 @@
-
 # positional parameter
 
 def my_func(a, b):
@@ -49,6 +48,7 @@ def post_info(title, content, *tags):
     print(content)
     print(tags)
 
+
 post_info(
     "my_tag",
     "Hello world",
@@ -56,3 +56,13 @@ post_info(
     "#Hello",
     "#CodeDefiner"
 )
+
+# Lamda 함수
+minus_one = lambda a: a - 1
+
+print(minus_one(10))
+
+# Lamda 함수 안에서 if문
+is_positive = lambda a: True if a > 0 else False
+
+print(is_positive(-1))
