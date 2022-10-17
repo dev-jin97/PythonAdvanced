@@ -26,3 +26,4 @@ Let's Do it!
 1. [String Handling](./md/01.String_Handling.md)
 2. [String Formatting](./md/02.String_Formatting.md)
 3. [List Handling](./md/03.List_Handling.md)
+4. [List Implication](./md/04.List_Implication.md)
