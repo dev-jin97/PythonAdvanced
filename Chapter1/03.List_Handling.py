@@ -10,3 +10,9 @@ del fruits[2] # target index
 numbers = [3, 5, 1, 2, 6]
 numbers.sort(reverse=True)
 print(numbers)
+
+# enumerate
+titles = ["check!", "check,too!", "checkkkkk~"]
+
+for idx, title in enumerate(titles):
+    print((idx + 1), title)
