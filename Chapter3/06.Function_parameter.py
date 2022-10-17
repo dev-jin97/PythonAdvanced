@@ -22,3 +22,37 @@ def send_message(title, contents="Not"):
 
 
 send_message(title="Hello", contents="Wow")
+
+
+# 위치 가변 매개 변수
+def print_fruits(*args):
+    print(args)
+
+
+print_fruits("apple", "banana")
+
+
+# 키워드 가변 매개변수
+def print_dict(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{{key : value}}")
+
+
+print_dict(hello="nice to meet you")
+
+
+# 매개변수 작성순서
+# 위치 - 기본 - 위치 가변 - 키워드(기본) - 키워드 가변
+
+def post_info(title, content, *tags):
+    print(title)
+    print(content)
+    print(tags)
+
+post_info(
+    "my_tag",
+    "Hello world",
+    "#Hi",
+    "#Hello",
+    "#CodeDefiner"
+)
