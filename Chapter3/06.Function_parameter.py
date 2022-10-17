@@ -66,3 +66,36 @@ print(minus_one(10))
 is_positive = lambda a: True if a > 0 else False
 
 print(is_positive(-1))
+
+
+# map 함수
+# 사용이유
+# 기존 리스트를 수정해서 새로운 리스트를 만들 때
+
+# 사용방법
+# map(함수, 순서가 있는 자료형)
+print(list(map(int, ["3", "4", "5", "6"])))
+
+blank_word = ["    shell", "   hello    "]
+
+print(list(map(lambda x: x.strip(), blank_word)))
+
+
+# filter 함수
+# 사용이유
+# 기존 리스트에서 조건을 만족하는 요소만 뽑고 싶을 때
+
+
+# 사용방법
+# filter(함수, 순서가 있는 자료형)
+def func(x):
+    return x < 0
+
+
+print(list(filter(func, [-3, -2, -1, 0, 1])))
+
+
+print(list(filter(lambda x: len(x) <= 3, ["abc", "abcd", "abcde", "bnc"])))
+
+
+
