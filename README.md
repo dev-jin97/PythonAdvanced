@@ -26,6 +26,10 @@ Let's Do it!
 1. [String Handling](./md/01.String_Handling.md)
 2. [String Formatting](./md/02.String_Formatting.md)
 3. [List Handling](./md/03.List_Handling.md)
-4. [List Implication](./md/04.List_Implication.md)  
-5. [Allocation & Copy](./md/05.Allocation_Copy.md)
-6. [Function parameter](./md/06.Function_parameter.md)
+4. [List Implication](./md/04.List_Implication.md)
+
+### Function Advanced 
+1. [Allocation & Copy](./md/05.Allocation_Copy.md)
+2. [Function parameter & Lamda ..etc](./md/06.Function_parameter.md)
+
+### Class Advanced
