@@ -4,6 +4,7 @@ class Unit:
     """
 
     count = 0
+
     # Magic method
     def __init__(self, name, health, shield, attack):
 
