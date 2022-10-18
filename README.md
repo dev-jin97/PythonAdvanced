@@ -33,3 +33,4 @@ Let's Do it!
 2. [Function parameter & Lamda ..etc](./md/06.Function_parameter.md)
 
 ### Class Advanced
+1. [Class & Object](./md/07.Class_Object.md)
