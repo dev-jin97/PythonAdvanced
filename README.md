@@ -39,3 +39,4 @@ Let's Do it!
 
 ### Data Base
 1. [Database(1)](./md/10.Database.md)
+2. [Database(2)-SQL DDL](./md/11.SQL_DDL.md)
