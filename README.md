@@ -41,5 +41,9 @@ Let's Do it!
 1. [Database(1)](./md/10.Database.md)
 2. [Database(2)-SQL DDL](./md/11.SQL_DDL.md)
 3. [Database(3)-SQL DML](./md/12.SQL_DML.md)
-#### Practice
-1. [Use a sqlite module](./Chapter5)
+4. [Database(4)-GROUP BY & JOIN](./md/13.Group_by_Join.md)
+- #### Practice
+  1. [Use a sqlite module](./Chapter5)
+
+### Regular Expression
+1. [Regular Expression(1)](./md/14.Introduce_Regular_Expression.md)
